@@ -1,0 +1,92 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e0fefe;
+  }
+  
+  header, footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  section {
+    margin-left: 20px;
+  }
+  
+  /* Styles for specific elements */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    section {
+      margin-left: 10px;
+    }
+  }
+  /* Quy tắc cho phần nội dung chính */
+.container {
+    max-width: 800px; /* Giới hạn chiều rộng của nội dung */
+    margin: 0 auto; /* Canh giữa nội dung */
+    padding: 20px; /* Khoảng cách giữa nội dung và khung trang */
+  }
+  
+  /* Quy tắc cho các phần tử tiêu đề */
+  h1, h2, h3 {
+    text-align: center; /* Canh giữa tiêu đề */
+  }
+  
+  /* Quy tắc cho các phần tử danh sách */
+  ul {
+    padding-left: 20px; /* Độ lề bên trái cho danh sách */
+  }
+  
+  /* Quy tắc cho các nút */
+  button {
+    display: block; /* Hiển thị nút dưới dạng khối */
+    margin: 20px auto; /* Canh giữa nút */
+  }
+  
+  /* Quy tắc cho các phần tử hình ảnh */
+  img {
+    display: block; /* Hiển thị hình ảnh dưới dạng khối */
+    margin: 0 auto; /* Canh giữa hình ảnh */
+  }
+  
